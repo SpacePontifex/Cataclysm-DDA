@@ -14,7 +14,7 @@
 #include "veh_type.h"
 #include "vehicle.h"
 #include "vpart_position.h"
-#include "vpart_reference.h" // IWYU pragma: keep
+#include "vpart_reference.h"
 
 void on_load_test( npc &who, const time_duration &from, const time_duration &to )
 {

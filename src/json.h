@@ -25,7 +25,6 @@
  *
  * Further documentation can be found below.
  */
-
 class JsonIn;
 class JsonOut;
 class JsonObject;

@@ -6,7 +6,7 @@
 #include <string>
 #include <unordered_map>
 
-#include "enums.h" // IWYU pragma: keep
+#include "enums.h"
 
 class JsonOut;
 class JsonObject;

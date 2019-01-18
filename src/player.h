@@ -28,7 +28,6 @@ struct bionic;
 class JsonObject;
 class JsonIn;
 class JsonOut;
-struct dealt_projectile_attack;
 class dispersion_sources;
 class monster;
 class game;

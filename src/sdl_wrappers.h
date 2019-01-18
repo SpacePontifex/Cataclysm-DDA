@@ -2,7 +2,6 @@
 #ifndef SDL_WRAPPERS_H
 #define SDL_WRAPPERS_H
 
-// IWYU pragma: begin_exports
 #if defined(_MSC_VER) && defined(USE_VCPKG)
 #   include <SDL2/SDL.h>
 #   include <SDL2/SDL_ttf.h>
@@ -10,7 +9,6 @@
 #   include <SDL.h>
 #   include <SDL_ttf.h>
 #endif
-// IWYU pragma: end_exports
 
 #include <memory>
 

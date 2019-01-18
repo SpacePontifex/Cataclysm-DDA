@@ -11,7 +11,7 @@
 #include "cata_utility.h"
 #include "catacharset.h"
 // needed for the workaround for the std::to_string bug in some compilers
-#include "compatibility.h" // IWYU pragma: keep
+#include "compatibility.h"
 #include "coordinate_conversions.h"
 #include "debug.h"
 #include "editmap.h"

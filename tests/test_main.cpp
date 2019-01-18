@@ -5,7 +5,7 @@
 // https://gcc.gnu.org/bugzilla/show_bug.cgi?id=85828
 #include <iosfwd> // Any cheap-to-include stdlib header
 #ifdef __GLIBCXX__
-#include <debug/macros.h> // IWYU pragma: keep
+#include <debug/macros.h>
 
 #undef __glibcxx_check_self_move_assign
 #define __glibcxx_check_self_move_assign(x)

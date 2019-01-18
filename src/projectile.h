@@ -41,7 +41,7 @@ struct projectile {
 
         projectile();
         projectile( const projectile & );
-        projectile( projectile && );
+        projectile( projectile && ) = default;
         projectile &operator=( const projectile & );
         ~projectile();
 

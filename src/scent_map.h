@@ -5,7 +5,7 @@
 #include <array>
 
 #include "calendar.h"
-#include "enums.h" // IWYU pragma: keep
+#include "enums.h"
 #include "game_constants.h"
 #include "optional.h"
 

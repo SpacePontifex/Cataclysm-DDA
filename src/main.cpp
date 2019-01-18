@@ -9,13 +9,6 @@
 #include <iostream>
 #include <locale>
 #include <map>
-#if (!(defined _WIN32 || defined WINDOWS))
-#include <signal.h>
-#endif
-#include <stdexcept>
-#ifdef LOCALIZE
-#include <libintl.h>
-#endif
 
 #include "color.h"
 #include "crash.h"
@@ -30,10 +23,20 @@
 #include "output.h"
 #include "path_info.h"
 #include "rng.h"
+#if (!(defined _WIN32 || defined WINDOWS))
+#include <signal.h>
+#endif
+#include <stdexcept>
+#ifdef LOCALIZE
+#include <libintl.h>
+#endif
 #include "translations.h"
-
 #ifdef TILES
-#include "sdl_wrappers.h"
+#   if defined(_MSC_VER) && defined(USE_VCPKG)
+#      include <SDL2/SDL_version.h>
+#   else
+#      include <SDL_version.h>
+#   endif
 #endif
 
 #ifdef __ANDROID__
