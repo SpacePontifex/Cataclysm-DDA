@@ -151,6 +151,11 @@ struct mutation_branch {
 
         /** The item, if any, spawned by the mutation */
         itype_id spawn_item;
+        /**
+        * If true, this mutation is a gun mutation and activating it will fire it.
+        * Prevents all other activation effects.
+        */
+        itype_id gun_mutation;
     private:
         std::string raw_spawn_item_message;
     public:

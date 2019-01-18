@@ -1,0 +1,11 @@
+{
+  "type": "MOD_INFO",
+  "mod_type": "SUPPLEMENTAL",
+  "ident": "testing_fakemut",
+  "name": "Testing gun mutations",
+  "description": "TESTING",
+  "category": "items",
+  "author": "SpacePontifex",
+  "path": ""
+}
+

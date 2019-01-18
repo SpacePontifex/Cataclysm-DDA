@@ -1,0 +1,17 @@
+[
+  {
+    "type": "mutation",
+    "id": "Test_gun_mut",
+    "name": "Gun mutation test",
+    "points": 1,
+    "description": "You can clearly see that this is for dev purposes only.",
+	"valid": false,
+    "active": true,
+    "cost": 50,
+    "hunger": true,
+    "thirst": true,
+	"debug": true,
+    "gun_mutation": { "type": "bio_blaster_gun" }
+  }
+]
+
