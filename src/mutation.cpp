@@ -131,6 +131,7 @@ void Character::apply_mods( const trait_id &mut, bool add_remove )
     per_max += sign * get_mod( mut, "PER" );
     dex_max += sign * get_mod( mut, "DEX" );
     int_max += sign * get_mod( mut, "INT" );
+    mod_dodge_bonus( (sign*get_mod(mut, "DODGE"));
 
     if( str_change != 0 ) {
         recalc_hp();

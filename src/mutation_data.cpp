@@ -72,6 +72,7 @@ static void load_mutation_mods( JsonObject &jsobj, const std::string &member,
         extract_mod( j, mods, "dex_mod",     active, "DEX" );
         extract_mod( j, mods, "per_mod",     active, "PER" );
         extract_mod( j, mods, "int_mod",     active, "INT" );
+        extract_mod( j, mods, "dodge_mod",  active, "DODGE");
     }
 }
 
